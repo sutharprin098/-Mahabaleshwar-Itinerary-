@@ -110,7 +110,6 @@ button.active { background:#1f3c88; color:white; border-color:#1f3c88; }
     
     <button class="btn-pdf" onclick="downloadPDF()">📄 Download PDF (with Map)</button>
 
-    <button class="btn-admin" onclick="openAdmin()">⚙️ Edit Photos (Admin)</button>
     <div style="text-align:center; margin-top:5px; font-size:10px; color:#888;">Data v3.0 Loaded</div>
   </div>
   <div id="map"></div>
@@ -118,7 +117,7 @@ button.active { background:#1f3c88; color:white; border-color:#1f3c88; }
 
 <div id="adminModal" class="modal">
   <div class="modal-content">
-    <h3>Update Photos</h3>
+    <h3></h3>
     <div id="adminForm"></div>
     <div style="display:flex; gap:10px; margin-top:20px;">
       <button onclick="saveAdminData()" style="flex:1; background:#1f3c88; color:white;">💾 Save</button>
@@ -300,5 +299,6 @@ showDay(1, document.querySelectorAll('.days-grid button')[0]);
 </script>
 </body>
 </html>
+
 
 
